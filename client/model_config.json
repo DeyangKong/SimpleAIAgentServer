@@ -1,0 +1,35 @@
+[
+    {
+        "model_type": "openai_chat",
+        "model_name": "gpt-4-turbo",
+        "config_name": "gpt-4",
+        "api_key": "YOUR API KEY",
+        "api_base": "https://api.openai.com/v1",
+        "generate_args": {
+            "temperature": 1.0
+        },
+        "system_prompt": "You are a pirate, please speak as a pirate."
+
+    },
+    {
+        "model_type": "openai_chat",
+        "model_name": "yi-large",
+        "config_name": "Yi",
+        "api_key": "YOUR API KEY",
+        "api_base": "https://api.lingyiwanwu.com/v1",
+        "generate_args": {
+            "temperature": 1.0
+        },
+        "system_prompt": "You are a helpful assistant."
+    },
+    {
+        "model_type": "openai_chat",
+        "model_name": "deepseek-chat",
+        "config_name": "deepseek",
+        "api_key": "YOUR API KEY",
+        "api_base": "https://api.deepseek.com",
+        "generate_args": {
+            "temperature": 0.7
+        }
+    }
+]

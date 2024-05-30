@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "simple-ai-agent"
+version = "0.1.0"
+description = ""
+authors = ["DeyangKong"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prompt-toolkit = "^3.0.45"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+lint.select = ["E", "F", "W", "C", "N", "Q", "I", "S"]
+lint.ignore = []
+
+exclude = [
+    "migrations",
+    "node_modules",
+    "venv",
+]
+
+fix = true
+lint.fixable = ["E", "W", "F", "I"]
