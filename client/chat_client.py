@@ -40,7 +40,7 @@ def stream_message(session_id, message):
         print("Failed to send message to the server.")
 
 def main():
-    configs = load_config(config_path="client/model_config.json")
+    configs = load_config(config_path="config/model_config.json")
     print("Available AI Models:")
     for idx, config in enumerate(configs):
         print(f"{idx + 1}: {config['config_name']}")

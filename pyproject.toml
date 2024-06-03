@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 prompt-toolkit = "^3.0.45"
+llama-index = "^0.10.40"
+fastapi = "^0.111.0"
 
 
 [tool.poetry.group.dev.dependencies]
